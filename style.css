@@ -1,0 +1,439 @@
+
+*{
+  box-sizing: border-box;
+  font-family: arial,helvetica,sans-serif;
+  scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Arial, Helvetica, sans-serif ;
+  font-weight: bold;
+}
+p{
+font-family:Arial, Helvetica, sans-serif ;
+}
+a{
+font-family:Arial, Helvetica, sans-serif ;
+font-weight: bold;
+text-decoration: none;
+}
+a:visited{
+ color: rgba(10, 97, 236, 0.639);
+}
+@font-face{
+  src: url('Fonts/LiberationSans-Regular.woff') format('woff');
+  font-family:Arial;
+}
+/* Nav Section */
+.navbar-brand img{
+height: 40px;
+max-width: 242px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+color: rgba(176,0,0,1.0);
+}
+a.nav-link{
+  transition: 2s;  
+}
+
+a.nav-link img{
+  height: 15px;
+  width: 20px;
+  padding: 3px;
+}
+.nav-border{
+  border: 1px solid black;
+}
+a.nav-link:hover{
+  color: rgba(176,0,0,1.0) !important;
+
+}
+.menubg{
+  background: #fff !important;
+  z-index: 9999;
+  box-shadow: 2px 9px 5px -4px rgba(175, 175, 175, 0.75);
+  -webkit-box-shadow: 2px 9px 5px -4px rgba(164, 162, 162, 0.75);
+  -moz-box-shadow: 2px 9px 5px -4px rgba(164, 164, 164, 0.75);
+} 
+/* Nav  End */
+
+/* Carousel Section Start */
+.carousel-indicators [data-bs-target] {
+  width: 3px;
+  cursor: pointer;
+  background-color: rgb(41, 40, 40);
+  background-clip: padding-box;
+  border: 0;
+  border: 5px solid rgb(255, 255, 255);
+  opacity: .5;
+  transition: opacity .6s ease;
+  box-shadow: -5px -8px 7px -2px rgba(68, 66, 66, 0.23);
+  -webkit-box-shadow: -5px -4px 7px -2px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: -5px -20px 7px -2px rgba(231, 143, 143, 0.23);
+  border-radius: 2px;
+ 
+  }
+/* Carousel Section End */
+
+/* SignUp Section Start */
+#signUp-section{
+  margin: 0 auto;
+  text-align: center;
+  border-top: 50px solid #c7c4c42d;
+}
+.signUp_text{
+  margin-top:30px;
+  font-size: 20px;
+}
+.btn.btn-danger {
+  padding: 10px 25px;
+  background: #bd0606;
+  font-size: 20px;
+  border-radius:7px;
+}
+/* SignUp Section End */
+
+/* Special Featers Start */
+#special-featers{
+  padding: 30px 0;
+  background-color: #F5F5F5;
+  margin-top: 20px;
+}
+#special-featers h3{
+  text-align: center;
+  font-weight: 400;
+}
+.span-line{
+ display: flex;
+ justify-content: center;
+ margin: 0 auto;
+ align-items: center;
+}
+.hr-line{
+ width: 100px;
+ height: 1px;
+ background: rgb(128, 127, 127);
+ float: left;
+ margin: 50px  10px;
+}
+.circle{
+  height: 5px;
+  width: 5px;
+  border: 1px solid rgba(86, 86, 86, 0.789);
+  padding: 4px;
+  display: inline-block;
+  float: left;
+}
+.featers-content{
+  margin: 0 auto !important;
+  justify-content: center;
+  text-align: center;
+}
+.featers-content img{
+  height: 100px;
+  width: 100px;
+}
+.featers-content P{
+  font-size: 22px;
+  margin-top: 20px;
+  color:  black;
+}
+/* Special Featers End  */
+
+/* News Section Start */
+.owl-theme .owl-dots .owl-dot span {
+  display: none;
+}
+#meida{
+  padding: 50px 150px;
+  background-color: #F5F5F5;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.owl-NewsPage img{
+ width: 50%!important;
+}
+.owl-NewsPage .owl-item img{
+height: 40px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+width: 180px;
+padding: 30px 5px;
+margin-bottom: 30px;
+box-sizing: content-box;
+}
+/* News Section End */
+
+/* customers feedback Section Start */
+.owl-customers{
+  position: relative;
+}
+#customers-feedback{
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+.header-text h4{
+font-weight: 400;
+margin-bottom: -20px;
+}
+.customer p{
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 400;
+}
+.customer img{
+  height:100px;
+  width:100px !important;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.customer h5{
+  text-align: center;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 15px;
+  
+}
+.owl-prev span{
+  color: rgb(19, 18, 18);
+  font-size: 25px !important;
+  left: -100px;
+  top:30%;
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background: #F5F5F5 !important;
+  border-radius: 50%;
+  font-weight: 700;
+  border: 1px solid rgba(0, 0, 0, 0.279);
+}
+.owl-next span{
+   font-size: 25px !important;
+   font-weight: 700;
+   color: rgb(0, 0, 0);
+   right: -100px;
+   top: 30%;
+   position: absolute;
+   height: 45px;
+   width: 45px;
+   background: #F5F5F5 !important;
+   border-radius: 50%;
+   border: 1px solid rgba(0, 0, 0, 0.279);
+}
+/* customears feedback  Section End*/
+
+/* Future Customer Section Start */
+#our-customer{
+  text-align: center;
+  padding: 70px 20px;
+  background-color: #F5F5F5;
+}
+#our-customer h3{
+font-weight: 400;
+margin-bottom: -30px;
+}
+#our-customer p{
+  font-size: 12px;
+  margin-bottom: 50px;
+  margin-top: -30px;
+}
+.future-Customer-image img{
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
+#future-blog{
+  background-color: #F5F5F5;
+  padding: 50px 190px;
+}
+.blog-card{
+  background-color: #F5F5F5;
+  margin-top: 100px;
+}
+.card img {
+width: 100%;
+display: flex;
+height: 130px;
+}
+.card-title h4{
+  font-size: 16px;
+}
+.card-title h4:hover{
+  text-decoration: underline;
+  color: rgba(176,0,0,1.0) !important;
+}
+.card-body a{
+   color: rgba(0, 0, 0, 0.843);
+  text-decoration: none;
+  border: 1px solid rgba(175, 174, 174, 0.387);
+  padding: 10px 25px;
+  font-size: 15px;
+}
+/* Future Customer Section End */
+
+/* Section Difference Of Truck's Start */
+.truck-details {
+  padding: 0px 10px;
+  text-align: left;
+}
+.truck-details:hover{
+  box-shadow: 2px 7px 13px 0px rgba(214,213,213,0.72);
+  -webkit-box-shadow: 2px 7px 13px 0px rgba(214,213,213,0.72);
+  -moz-box-shadow: 2px 7px 13px 0px rgba(214,213,213,0.72);
+  transition: 1s;
+}
+.truck-details h4{
+  margin-top: 20px;
+}
+.truck-details:hover h4{
+  color: red;
+}
+.truck-details:hover p{
+  color: rgba(255, 0, 0, 0.421);
+}
+/* Section Difference Of Truck End */
+
+/* Future Blog Section Start */
+#future-blog {
+  background-color: #F5F5F5;
+  padding: 50px 190px;
+}
+#future-blog h3{
+  text-align: center;
+}
+.card-head img{
+ width: 100%;
+ height: 100%;
+}
+.card-title{
+  margin-top: 20px;
+  padding: 3px;
+}
+.card-title h4:hover{
+  text-decoration: underline rgb(196, 7, 7);
+}
+.card-body{
+  border: none;
+}
+.card-body a{
+  margin-top: 20px !important;
+  padding: 10px 10px;
+  display: inline-block;
+}
+.card-body:hover a{
+  border: 1px solid rgb(196, 7, 7);
+}
+.card-body:hover a{
+ color: rgb(125, 10, 10);
+ text-decoration: underline rgb(196, 7, 7);
+
+}
+/* Future Blog Section End */
+
+/*  Strip line Start */
+#future-stripLine{
+  background-image: url(img/Web-Strip.webp);
+  padding: 50px 0;
+}
+.order-section h3{
+  color: #fff;
+  margin-bottom: 100px;
+}
+.app-section h3{
+  color: #fff;
+  margin-bottom: 90px;
+}
+/*  Strip line End */
+
+/* Future Footer Section Start */
+#future-footer{
+  padding: 100px 0px;
+}
+.future-footerContent img {
+max-width: 100%;
+height: auto;
+width: 100% !important;
+}
+.future-footerContent h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.future-footerContent h5{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+.social-media  h3 {
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 700;
+}
+.social-media{
+  margin-top: 50px;
+}
+
+input#email{
+  padding: 7px 10px;
+  font-size: 18px;
+  margin-top: 30px;
+  border: 1px solid #444444;
+}
+#arrow-button{
+  padding: 7px 9px;
+  background: rgba(176,0,0,1.0);
+  color: #fff;
+  font-size: 19px;
+  margin-top: 30px;
+  border: 1px solid #565454a5;
+}
+.social-icons{
+  margin-top: 25px;
+}
+input#email:hover{
+  border: 1px solid red;
+}
+.social-icons a{
+  text-decoration: none;
+}
+.social-icons i {
+color: rgba(176,0,0,1.0);
+font-size: 22px;
+border: 1px solid rgba(176,0,0,1.0);
+margin-left: 5px;
+padding: 5px;
+}
+/* Future Footer Section End */
+
+/* Scroll Top Button */
+#scroll-Top{
+  color: #fff;
+  font-size: 40px;
+}
+#btnScrollTop{
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: rgb(144, 142, 142);
+  border: none;
+  z-index: 99999;
+  display: none;
+} 
+/* Scroll Top Button End */
